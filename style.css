@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* Header */
+
+.header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header p {
+    color: gray;
+    margin-top: 5px;
+}
+
+
+/* Container */
+
+.container {
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* Food Cards */
+
+.card {
+    display: inline-block;
+
+    width: 200px;
+
+    border: 2px solid black;
+
+    text-align: center;
+
+    vertical-align: top;
+}
+
+.card img {
+    width: 200px;
+    height: 250px;
+
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 16px;
+}
+
+.card p {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.card button {
+    background-color: black;
+    color: white;
+
+    padding: 6px 10px;
+
+    border: none;
+
+    margin-bottom: 5px;
+}
+
+
+/* Contact Section */
+
+.contact {
+    background-color: black;
+    color: white;
+
+    text-align: center;
+
+    padding: 15px;
+}
+
+.contact table {
+    margin: auto;
+}
+
+.contact input {
+    padding: 5px;
+}
+
+.send {
+    width: 400px;
+
+    background-color: yellow;
+
+    border: none;
+
+    padding: 7px;
+
+    margin-top: 5px;
+}
